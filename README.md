@@ -21,4 +21,4 @@ Build REST API with Node.js, MongoDB
 
 ##Run the app
 
-	npm run devStart
+	npm run start
