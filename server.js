@@ -11,7 +11,7 @@ db.once('open', ()=>console.log('Connect to DB'))
 
 app.use(express.json())
 
-const subscriberRouter = require('./routes/routes')
+const subscriberRouter = require('./routes')
 app.use('/subscribers', subscriberRouter)
 // 'localhost:3000/subscribers/sfkdf'
 
