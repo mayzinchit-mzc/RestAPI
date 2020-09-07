@@ -1,12 +1,12 @@
-GET http://localhost:3000/subscribers
+GET http://localhost:2020/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/5f4cb21af7e306103cd4eac3
+GET http://localhost:2020/subscribers/5f4cb21af7e306103cd4eac3
 
 ###
 
-POST http://localhost:3000/subscribers
+POST http://localhost:2020/subscribers
 Content-Type: application/json
 
 {
@@ -17,11 +17,11 @@ Content-Type: application/json
 ###
 
 
-DELETE http://localhost:3000/subscribers/5f4cc5f6a7b0bf3834348db4
+DELETE http://localhost:2020/subscribers/5f4cc5f6a7b0bf3834348db4
 
 ###
 
-PATCH http://localhost:3000/subscribers/5f4cb21af7e306103cd4eac3
+PATCH http://localhost:2020/subscribers/5f4cb21af7e306103cd4eac3
 Content-Type: application/json
 
 {
