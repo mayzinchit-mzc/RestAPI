@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f4cb21af7e306103cd4eac3
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "g shbck",
+    "subscribedToChannel": "Web dev sample"
+}
+
+###
+
+
+DELETE http://localhost:3000/subscribers/5f4cc5f6a7b0bf3834348db4
+
+###
+
+PATCH http://localhost:3000/subscribers/5f4cb21af7e306103cd4eac3
+Content-Type: application/json
+
+{
+    "name" : "New Name"
+}
